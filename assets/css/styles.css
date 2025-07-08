@@ -1,0 +1,617 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* 
+{
+
+    padding         :                   0px;
+    margin          :                   0px;
+    font-family     : 'Poppins', sans-serif;
+    font-style      :                normal;
+    font-weight     :                   500;
+    color           :             #ffffff;
+    text-decoration :                  none;
+    box-sizing      :            border-box;
+
+}
+
+body { background-color: #070707; }
+
+header#header 
+{
+
+    position         :         sticky;
+    position         : -webkit-sticky;
+    top              :            0px;
+    left             :            0px;
+    z-index          :              9;
+    padding          :      18px 25px;
+    background-color :      #111111;
+    display          :           flex;
+    justify-content  :  space-between;
+    align-items      :         center;
+    gap              :           80px;
+    flex-wrap        :           wrap;
+
+}
+
+header#header div#header__main 
+{
+    
+    display         :   flex;
+    justify-content : center;
+    align-items     : center;
+    gap             :   50px;
+    flex-wrap       :   wrap;
+
+}
+
+header#header div#header__main div#header__main-who p 
+{
+
+    font-size : 13pt;
+    opacity   :  0.6;
+
+}
+
+header#header div#header__main div#header__main-who p font { color: #6118af; }
+
+header#header div#header__main div#header__main-who p span 
+{
+
+    font-size   : 11pt;
+    opacity     :  0.5;
+    margin-left : 10px;
+
+}
+
+header#header div#header__main div#header__main-main_skills 
+{
+
+    display     :   flex;
+    align-items : center;
+    gap         :   25px;
+
+}
+
+header#header div#header__main div#header__main-main_skills div#header__main-main_skills__t p 
+{
+
+    font-size : 8.7pt;
+    opacity   :   0.4;
+
+}
+
+header#header div#header__main div#header__main-main_skills div#header__main-main_skills__list 
+{
+
+    display     :   flex;
+    align-items : center;
+    gap         :   20px;
+
+}
+
+header#header div#header__main div#header__main-main_skills div#header__main-main_skills__list div.header__main-main_skills__list-skill img 
+{ 
+
+    display    : block;
+    width      :  35px; 
+    object-fit : cover;
+}
+
+header#header div#header__menu 
+{
+
+    display         :   flex;
+    justify-content : center;
+    gap             :   30px;
+    flex-wrap       :   wrap;
+
+}
+
+header#header div#header__menu a 
+{
+
+    display     :   flex;
+    align-items : center;
+    gap         :   10px;
+    font-size   :  9.5pt;
+    opacity     :    0.5;
+
+}
+
+header#header div#header__menu a i 
+{
+
+    display     :   flex;
+    align-items : center;
+
+}
+
+main#main 
+{
+
+    display         :      flex;
+    justify-content :    center;
+    margin          : 100px 0px;
+
+}
+
+main#main div#main__center section#main__center-about 
+{
+
+    display         :   flex;
+    justify-content : center;
+    align-items     : center;
+    gap             :  100px;
+    flex-wrap       :   wrap;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__main 
+{
+
+    padding          :      25px;
+    width            :     300px;
+    background-color : #111111;
+    border-radius    :      10px;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__main div#main__center-about__main-pic 
+{
+
+    display         :   flex;
+    justify-content : center;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__main div#main__center-about__main-pic img 
+{
+
+    width         : 140px;
+    height        : 140px;
+    border-radius : 100px;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__main div#main__center-about__main-infos { margin-top: 40px; }
+
+main#main div#main__center section#main__center-about div#main__center-about__main div#main__center-about__main-infos div.main__center-about__main-infos__info { margin: 10px 0px; }
+
+main#main div#main__center section#main__center-about div#main__center-about__main div#main__center-about__main-infos div.main__center-about__main-infos__info p 
+{
+
+    padding   : 10px 18px;
+    font-size :     8.7pt;
+    opacity   :       0.5;
+
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.6), #111111);
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__main div#main__center-about__main-infos div.main__center-about__main-infos__info p span { opacity: 0.4; }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-a 
+{
+
+    padding          :               18px 23px;
+    max-width        :                   900px;
+    background-color : rgba(17, 17, 17, 0.4);
+    border-radius    :                    10px;
+    word-wrap        :              break-word;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-a p 
+{
+
+    display     :    flex;
+    align-items :  center;
+    gap         :    10px;
+    font-size   :     9pt;
+    opacity     :     0.5;
+    text-align  : justify;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-a p i 
+{
+
+    display     :   flex;
+    align-items : center;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills 
+{
+
+    padding          :      25px;
+    max-width        :     900px;
+    background-color : #111111;
+    border-radius    :      10px;
+    display          :      flex;
+    justify-content  :    center;
+    gap              :      15px;
+    flex-wrap        :      wrap;
+    margin-top       :      40px;
+
+}
+ 
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div.main__center-about__right_bottom-all_skills__skill 
+{
+
+    padding          :            14px 19px;
+    width            :                230px;
+    background-color : rgba(2, 2, 2, 0.4);
+    border-radius    :                 10px;
+    display          :                 flex;
+    justify-content  :        space-between;
+    align-items      :               center;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div.main__center-about__right_bottom-all_skills__skill p { opacity: 0.5; }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div.main__center-about__right_bottom-all_skills__skill p:first-child 
+{
+
+    padding       : 5px 15px;
+    border-radius :      5px;
+    font-size     :    8.5pt;
+
+}
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div.main__center-about__right_bottom-all_skills__skill p:nth-child(2) { font-size: 9pt; }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-html p:first-child       { background-color: rgba(229, 77, 38, 0.4);   }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-css p:first-child        { background-color: rgba(38, 77, 228, 0.4);   }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-javascript p:first-child { background-color: rgba(247, 223, 29, 0.4);  }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-vuejs p:first-child      { background-color: rgba(65, 182, 131, 0.4);  }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-php p:first-child        { background-color: rgba(118, 123, 179, 0.4); }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-nodejs p:first-child     { background-color: rgba(128, 189, 0, 0.4);   }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-sql p:first-child        { background-color: rgba(0, 114, 197, 0.4);   }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-python p:first-child     { background-color: rgba(55, 111, 158, 0.4);  }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-git p:first-child        { background-color: rgba(240, 81, 52, 0.4);   }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-github p:first-child     { background-color: rgba(89, 88, 88, 0.4);    }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-linux p:first-child      { background-color: rgba(244, 192, 31, 0.4);  }
+
+main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills div#main__center-about__right_bottom-all_skills__skill-aws p:first-child        { background-color: rgba(254, 153, 0, 0.4);   }
+
+main#main div#main__center section#main__center-contact 
+{
+
+    display         :   flex;
+    justify-content : center;
+    align-items     : center;
+    gap             :  100px;
+    flex-wrap       :   wrap;
+    margin-top      :   80px;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__social 
+{
+
+    padding          : 10px 25px;
+    background-color : #111111;
+    border-radius    :      10px;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__social a:hover > div.main__center-contact__social-item { background-color: #181818; }
+
+main#main div#main__center section#main__center-contact div#main__center-contact__social div.main__center-contact__social-item 
+{
+
+    padding          :            20px 25px;
+    width            :                350px;
+    background-color : rgba(2, 2, 2, 0.3);
+    border-radius    :                 15px;
+    display          :                 flex;
+    justify-content  :        space-between;
+    align-items      :               center;
+    margin           :             15px 0px;
+    transition       :                 0.4s;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__social div.main__center-contact__social-item div.main__center-contact__social-item__icon 
+{
+
+    width           :   25px;
+    display         :   flex;
+    justify-content : center;
+
+} 
+
+main#main div#main__center section#main__center-contact div#main__center-contact__social div.main__center-contact__social-item div.main__center-contact__social-item__icon i 
+{
+
+    font-size : 11pt;
+    opacity   :  0.4;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__social div.main__center-contact__social-item div.main__center-contact__social-item__t p 
+{
+
+    font-size : 9pt;
+    opacity   : 0.5;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form 
+{
+
+    padding          : 15px 25px 25px 25px;
+    background-color :           #111111;
+    border-radius    :                10px;    
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-failure 
+{
+
+    display         :   flex;
+    justify-content : center;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-failure div#main__center-contact__form-failure__message 
+{
+
+    padding          :                22px 25px;
+    width            :                    400px;
+    background-color : rgba(175, 24, 32, 0.1);
+    border-radius    :                     10px;
+    display          :                     flex;
+    justify-content  :            space-between;
+    align-items      :                   center;
+    gap              :                     30px;
+    margin           :            20px 0px 40px;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-failure div#main__center-contact__form-failure__message div#main__center-contact__form-failure__message-icon i 
+{
+
+    display     :   flex;
+    align-items : center;
+
+} 
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-failure div#main__center-contact__form-failure__message div#main__center-contact__form-failure__message-m p 
+{
+
+    color     : #af1820;
+    font-size :      10pt;
+    opacity   :       0.6;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area { margin: 10px 0px; }
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area input, main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area textarea
+{
+
+    display          :     block;
+    outline          :      none;
+    border           :      none;
+    width            :     400px;
+    background-color : #070707;
+    border-radius    :      15px;
+    font-size        :       9pt;
+    opacity          :       0.5;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area input 
+{ 
+    
+    padding-left : 18px;
+    height       : 55px;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area textarea 
+{
+
+    padding : 18px 0px 0px 15px;
+    height  :              70px;
+    resize  :          vertical;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div#main__center-contact__form-main__submit 
+{
+
+    display         : flex; 
+    justify-content :  end;
+    margin-top      : 40px;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div#main__center-contact__form-main__submit button 
+{
+
+    outline          :      none;
+    border           :      none;
+    padding          :  0px 25px;
+    height           :      40px;
+    background-color : #6118af;
+    border-radius    :      15px;
+    display          :      flex;
+    align-items      :    center;
+    gap              :      10px;
+    font-size        :       9pt;
+    opacity          :       0.5;
+    transition       :      0.4s;
+    cursor           :   pointer;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div#main__center-contact__form-main__submit button i 
+{
+
+    display     :   flex;
+    align-items : center;
+
+}
+
+main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div#main__center-contact__form-main__submit button:hover { background-color: #450f7e; }
+
+main#main div#main__center section#main__center-projects 
+{ 
+
+    padding          :      25px;
+    background-color : #111111;
+    border-radius    :      10px;
+    margin-top       :      80px; 
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-t 
+{
+
+    padding     :    3px 0px 0px 15px;
+    border-left : 4px solid #070707;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-t p 
+{
+
+    font-size : 10pt;
+    opacity   :  0.5;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-project { margin-top: 30px; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-project div#main__center-projects__main-project__link a 
+{
+
+    padding          : 12px 25px;
+    width            :     140px;
+    background-color : #af1820;
+    border-radius    :      15px;
+    display          :      flex;
+    align-items      :    center;
+    gap              :      10px;
+    font-size        :       9pt;
+    opacity          :       0.5;
+    transition       :      0.4s;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-project div#main__center-projects__main-project__link a i 
+{
+
+    display     :   flex;
+    align-items : center;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-project div#main__center-projects__main-project__link a:hover { background-color: #781015; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-project div#main__center-projects__main-project__description 
+{
+
+    max-width  :      400px;
+    word-wrap  : break-word;
+    margin-top :       30px;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__main div#main__center-projects__main-project div#main__center-projects__main-project__description p 
+{
+
+    font-size  :     9pt;
+    opacity    :     0.4;
+    text-align : justify;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list { margin-top: 40px; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-stripe 
+{
+
+    padding          :                 25px;
+    background-color : rgba(2, 2, 2, 0.3);
+    border-radius    :                 10px;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m { margin-top: 30px; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div#main__center-projects__list-m__warning p 
+{
+
+    font-size : 9pt;
+    opacity   : 0.4;
+
+}
+
+@media screen and (max-width: 1600px) 
+{
+
+    header#header { justify-content: center; }
+
+}
+
+@media screen and (max-width: 1000px) 
+{
+
+    main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-a, main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills { max-width: 700px; }
+
+}
+
+@media screen and (max-width: 850px) 
+{
+
+    main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-a, main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills { max-width: 500px; }
+
+}
+
+@media screen and (max-width: 700px) 
+{
+
+    main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-a, main#main div#main__center section#main__center-about div#main__center-about__right_bottom div#main__center-about__right_bottom-all_skills, main#main div#main__center section#main__center-contact div#main__center-contact__form, main#main div#main__center section#main__center-projects
+    {
+
+        width         : 100%;
+        border-radius :  0px;
+
+    }
+
+    main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area input, main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-main div.main__center-contact__form-main__area textarea { width: 100%; }
+
+    main#main div#main__center section#main__center-contact div#main__center-contact__social 
+    {
+
+        width         : 100%;
+        border-radius :  0px;
+
+    }
+
+    main#main div#main__center section#main__center-contact div#main__center-contact__social div.main__center-contact__social-item 
+    {
+
+        width : 100%;
+        gap   : 30px;
+
+    }
+
+}
