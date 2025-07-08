@@ -614,4 +614,8 @@ main#main div#main__center section#main__center-projects div#main__center-projec
 
     }
 
+    main#main div#main__center section#main__center-contact div#main__center-contact__form form div#main__center-contact__form-failure div#main__center-contact__form-failure__message { width: 350px; }
+
+    main#main div#main__center section#main__center-projects div#main__center-projects__main, main#main div#main__center section#main__center-projects div#main__center-projects__list { padding: 0px 15px; }
+
 }
