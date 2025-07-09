@@ -564,6 +564,85 @@ main#main div#main__center section#main__center-projects div#main__center-projec
 
 }
 
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project 
+{
+
+    padding          :            18px 25px;
+    width            :                350px;
+    background-color : rgba(2, 2, 2, 0.3);
+    border-radius    :                 10px;
+    word-wrap        :           break-word;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-i p 
+{
+
+    font-size  :     9pt;
+    opacity    :     0.6;
+    margin     : 5px 0px;
+    text-align : justify;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-i p span { opacity: 0.5; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more { margin-top: 30px; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more a, main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more button 
+{
+
+    outline         :          none;
+    border          :          none;
+    padding         :     16px 21px;
+    width           :         230px;
+    border-radius   :          10px;
+    display         :          flex;
+    justify-content : space-between;
+    align-items     :        center;
+    font-size       :           9pt;
+    opacity         :           0.5;
+    transition      :          0.4s;
+    cursor          :       pointer;
+    margin          :      15px 0px;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more a div.main__center-projects__list-m__project-more__item-icon, main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more button div.main__center-projects__list-m__project-more__item-icon 
+{
+
+    width           :   25px;
+    display         :   flex;
+    justify-content : center;
+
+}
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more a div.main__center-projects__list-m__project-more__item-icon i, main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more button div.main__center-projects__list-m__project-more__item-icon i { font-size: 12pt; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more a       { background-color: #0550a6; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more a:hover { background-color: #04356d; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more button       { background-color: #202020; }
+
+main#main div#main__center section#main__center-projects div#main__center-projects__list div#main__center-projects__list-m div.main__center-projects__list-m__project div.main__center-projects__list-m__project-more button:hover { background-color: #151515; }
+
+div.modal 
+{
+
+    position         :                fixed;
+    z-index          :                    1;
+    top              :                  0px;
+    left             :                  0px;
+    width            :                 100%;
+    height           :                 100%;
+    background-color : rgba(2, 2, 2, 0.7);
+    display          :                 none;
+    justify-content  :               center;
+    align-items      :               center;
+
+}
+
 @media screen and (max-width: 1600px) 
 {
 
